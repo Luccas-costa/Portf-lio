@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+  /* style texto */
+  --fonte-outfit: "Outfit", sans-serif;
+  --weight-outfit-grosso: 900;
+  --weight-outfit-fino: 500;
+  --weight-outfit-muitofino: 200;
+
+  /* cor textos */
+  --cor-texto-primario: #fff;
+  --cor-texto-secundario: #9B8CA9;
+  
+  /* cor elementos */
+  --cor-icones-primario: #FEF3B9;
+  --cor-cabecario: #ffffff52;
+
+  /* cores */
+  --branco: #fff;
+
+  --verde: #84fa84;
+  --rosa: rgb(208,190,232);
+  --rosa-escuro: rgb(207,190,232);
+  
+  --amarelo-botao-copiar: rgb(219,207,165);
+
+  --roxo-secundario: #9E8CB1;
+  --roxo-terciario: #A299A3;
+  --roxo-quarto: #212024;
+
+  /* gradientes */
+  --background-inicial: radial-gradient(#67577b,#645578,#625374,#5f5171,#5c4f6e,#5a4c6a,#574a67,#544864,
+  #514660,#4f445d,#4c425a,#494056,#473e53,#443c50, #41394c,#3f3749,#3c3545,#393342,#37313f,#342f3b,
+  #312d38,#2e2b35,#2c2831,#29262e,#26242b,#242227,#212024);
+
+  --background-projetos: linear-gradient(180deg, rgba(208,190,232,1) 0%, rgba(218,202,209,1) 50%, rgba(255,244,187,1) 100%);
+
+  --background-contato: linear-gradient(180deg, rgba(207,190,232,1) 0%, rgba(179,166,201,1) 50%, rgba(151,142,170,1) 100%);
+  
+  --background-botao-copiar: linear-gradient(180deg, rgba(219,207,165,1) 0%, rgba(170,156,184,1) 100%);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: var(--roxo-quarto);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--roxo-quarto);
+  border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+.nome {
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 2vh;
+}
+
+.paragrafo {
+    margin-left: 2vw;
+}
+
+.tudo {
+    margin-top: 5vh;
+}
+
+.tudo span {
+    font-weight: bolder;
+}

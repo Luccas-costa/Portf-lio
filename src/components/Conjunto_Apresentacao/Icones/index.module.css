@@ -1,0 +1,24 @@
+.moldura {
+    display: flex;
+    /* width: 100px;
+    height: 100px; */
+    width: 5.3vw;
+    height: 10.5vh;
+    background-color: var(--cor-icones-primario);
+    border-radius: 10%;
+    margin: auto 2vw;
+    justify-content: center;
+    align-items: center;
+    transition: ease 0.5s;
+    position: relative;
+}
+
+.copiado {
+    position: absolute;
+    bottom: 98px;
+}
+
+.moldura:hover {
+    transform: scale(1.2, 1.2);
+    transition: ease 0.5s;
+}

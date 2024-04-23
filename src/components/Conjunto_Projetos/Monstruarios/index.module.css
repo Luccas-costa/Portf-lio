@@ -1,0 +1,31 @@
+.organizacao {
+    margin-top: 17vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 11vw;
+}
+
+.divprojetos {
+    display: flex;
+    flex-direction: column;
+}
+
+.organizacao div p {
+    margin-top: 1.5vh;
+    font-weight: 400;
+    font-size: calc(1rem + 0.3vw);
+    color: #2b2b2b;
+    margin: auto;
+}
+
+.organizacao div h1 {
+    font-weight: bolder;
+    font-size: calc(1rem + 0.3vw);
+    margin: auto;
+    font-size: calc(1rem + 0.35vw);
+}
+
+.txt34 {
+    padding-bottom: 5vh;
+}

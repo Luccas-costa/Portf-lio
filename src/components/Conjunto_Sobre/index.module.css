@@ -1,0 +1,12 @@
+.divgeral {
+    width: 99.76vw;
+    background: var(--branco);
+}
+
+.divsobre {
+    display: flex;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    gap: 3vw;
+    justify-content: center;
+}

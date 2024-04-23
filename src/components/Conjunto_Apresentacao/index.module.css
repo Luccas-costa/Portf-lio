@@ -1,0 +1,59 @@
+.degrade {
+    width: 99.76vw;
+    height: 100vh;
+    background-image: var(--background-inicial);
+}
+
+.alinhamento_apresentacao {
+    padding-top: 22vh;
+    padding-left: 7vw;
+}
+
+.txt_mini {
+    display: flex;
+    font-family: var(--fonte-outfit);
+    font-optical-sizing: auto;
+    font-weight: var(--weight-outfit-grosso);
+    font-style: normal;
+    font-size: calc(1rem + 0.5vw);
+    line-height: 25px;
+    color: var(--roxo-secundario);
+    margin-left: 1vw;
+}
+
+.txt_apresentacao { 
+    display: flex;
+    font-family: var(--fonte-outfit);
+    font-optical-sizing: auto;
+    font-weight: var(--weight-outfit-grosso);
+    font-style: normal;
+    font-size: calc(1rem + 12vw);
+    line-height: 205px;
+    color: var(--branco);
+}
+
+.txt_mini_inferior1 {
+    display: flex;
+    margin-left: 43vw;
+    margin-top: 3vh;
+    font-family: var(--fonte-outfit);
+    font-optical-sizing: auto;
+    font-weight: var(--weight-outfit-fino);
+    font-style: normal;
+    font-size: calc(1rem + 0.3vw);
+    line-height: 8px;
+    color: var(--roxo-terciario);
+}
+
+.txt_mini_inferior2 {
+    display: flex;
+    margin-left: 38vw;
+    margin-top: 2.5vh;
+    font-family: var(--fonte-outfit);
+    font-optical-sizing: auto;
+    font-weight: var(--weight-outfit-fino);
+    font-style: normal;
+    font-size: calc(1rem + 0.3vw);
+    line-height: 0px;
+    color: var(--roxo-terciario);
+}

@@ -1,0 +1,11 @@
+.todo {
+    width: 99.76vw;
+    background: var(--background-contato);
+}
+
+.arrumacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}

@@ -1,0 +1,9 @@
+.texto {
+    font-weight: bold;
+    font-size: calc(1rem + 1vw);
+    color: #25232F;
+}
+
+.arrumatudo {
+    margin-top: 5vh;
+}
